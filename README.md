@@ -9,6 +9,7 @@ chmod +x gbb.sh
 ./gbb.sh ch341a_spi
 ```
 
-afterwards, reassemble your chromebook and enter dev mode. (esc + reload + power, ctrl + d, enter)
+afterwards, reassemble your chromebook and enter dev mode. (esc + reload + power, ctrl + d, enter)<br>
+or you could use a thumbdrive with an old version of chromeos to use different exploits
 
 works on Debian / Ubuntu, may work on WSL
