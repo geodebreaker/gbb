@@ -20,7 +20,7 @@ main() {
 	trap 'rm -f "$image_file"; exit' EXIT
 	
 	sudo flashrom -p "$1" -i GBB -r "$image_file" | tail -n +4
-	sudo futility gbb -s --flags="0x8031" "$image_file"
+	sudo futility gbb -s --flags="0x80bf" "$image_file"
 	sudo flashrom -p "$1" -i GBB -w "$image_file" | tail -n +4
 	echo "Done"
 }
