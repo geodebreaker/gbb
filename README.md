@@ -2,7 +2,7 @@
 
 **UNTESTED:** needs testing.
 
-after downloading the script, follow [this tutorial](https://docs.mrchromebox.tech/docs/support/unbricking/unbrick-ch341a.html) until step 6, then run
+after downloading the script (gbb.sh), follow [this tutorial](https://docs.mrchromebox.tech/docs/support/unbricking/unbrick-ch341a.html) until step 6, then run
 
 ```bash
 chmod +x gbb.sh
