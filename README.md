@@ -1,4 +1,4 @@
-# GBB overwriter for school chromebooks
+# GBB overwriter for enrolled chromebooks
 
 **UNTESTED:** needs testing.
 
