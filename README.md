@@ -1,4 +1,4 @@
-# GBB flag overwriter for school chromebooks
+# GBB flag overwriter for enrolled chromebooks
 
 **UNTESTED:** needs testing.
 
