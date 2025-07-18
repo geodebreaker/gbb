@@ -44,12 +44,6 @@ package() {
 			if command -v apt &> /dev/null; then
 		    sudo apt update
 		    sudo apt install -y "${missing[@]}"
-			elif command -v dnf &> /dev/null; then
-		    sudo dnf install -y "${missing[@]}"
-			elif command -v yum &> /dev/null; then
-		    sudo yum install -y "${missing[@]}"
-			elif command -v pacman &> /dev/null; then
-			  sudo pacman -Sy --noconfirm "${missing[@]}"
 			else
 				echo "cannot find package manager"
 				exit 1
