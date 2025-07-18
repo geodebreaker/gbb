@@ -4,7 +4,7 @@ main() {
 	if [ "$#" -lt 1 ] || [ "$#" -gt 2 ]; then
 	  echo "usage: $0 <flash_programmer_name> [flags]"
 		echo "example: $0 ch341a_spi"
-  	echo "example: $0 ch341a_spi 0x80bf"
+  	echo "example: $0 ch341a_spi 0x80b7"
 		echo "use while connected to chromebook flash to overwrite gbb flags"
 		echo "by geodebreaker - 4/29/25"
 	  exit 1
@@ -20,7 +20,7 @@ main() {
 	image_file="$(mktemp)"
 	trap 'rm -f "$image_file"; exit' EXIT
 	sudo flashrom -p "$1" -i GBB -r "$image_file" | tail -n +4
-	value=${2:-"0x80bf"}
+	value=${2:-"0x80b7"}
 	sudo futility gbb -s --flags="$value" "$image_file"
 	sudo flashrom -p "$1" -i GBB -w "$image_file" | tail -n +4
 	echo "Done"
