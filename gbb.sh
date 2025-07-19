@@ -5,8 +5,8 @@ main() {
 	  echo "usage: $0 <flash_programmer_name> [flags]"
 		echo "example: $0 ch341a_spi"
   	echo "example: $0 ch341a_spi 0x84b7"
-		echo "use while connected to chromebook flash to overwrite gbb flags"
-		echo "by geodebreaker - 4/29/25"
+		echo "use while connected to chromebook firmware to overwrite gbb flags"
+		echo "by geodebreaker - 7/19/25"
 	  exit 1
 	fi
 	

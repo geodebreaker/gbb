@@ -71,3 +71,5 @@ Once you are in dev mode, you can refer to [this official tutorial](https://www.
 If you would like, you could use a thumbdrive with an old version of chromeos to use different exploits.
 
 If you would like to use different flags, you can use [this tool](https://binbashbanana.github.io/gbbflaginator/) to find the value and put that into the command as a second argument
+
+use [this mrchromebox.tech tool](https://docs.mrchromebox.tech/docs/fwscript.html) to update the firmware in other ways once you have booted into devmode and entered the VT2 (ctrl + alt + f2)
